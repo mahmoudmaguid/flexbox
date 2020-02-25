@@ -53,15 +53,15 @@
 .item3,
 .item5,
 .item6 {
-    width: 50%;
+    width: 50%;/* it could be width: calc(100% /2); */
 }
 }
 /*desktop*/
 @media screen and (min-width: 1200px){
     .item2,
     .item3,
-    .item5 {
-        width: 33.333%;
+    .item4 {
+        width: 33.33333333333%;/* it could be width: calc(100% /3); */
          }
 
 
