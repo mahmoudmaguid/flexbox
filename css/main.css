@@ -1,0 +1,57 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* flex container ( dose noy to be doby  just use in  this example*/
+
+.flexbox{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* flex item*/
+.flex-item{
+
+    display: block;
+    width: 100%;
+    height: 460px;
+}
+.item1{
+
+    background:  rgb(99, 233, 99) ;
+}
+.item2{
+
+    background: rgb(124, 28, 28) ;
+}
+.item3{
+
+    background: rgb(62, 62, 201) ;
+}
+.item4{
+
+    background: rgb(230, 230, 19) ;
+}
+.item5{
+
+    background: rgb(107, 39, 172) ;
+}
+.item6{
+
+    background: rgb(1, 1, 32) ;
+}
+@media screen and (min-width: 750px)
+{
+
+.item2,
+.item3,
+.item5,
+.item6 {
+    width: 50%;
+}
+}
