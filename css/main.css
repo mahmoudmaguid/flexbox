@@ -58,11 +58,11 @@
 }
 /*desktop*/
 @media screen and (min-width: 1200px){
-    .item2,
+    .item1, .item2,
     .item3,
     .item4 {
-        width: 33.33333333333%;/* it could be width: calc(100% /3); */
-         }
-
-
+        width: 25%;/* it could be width: calc(100% /3); */
+         }     
+           .item5,.item6 {width: 100%;}
         }
+        
